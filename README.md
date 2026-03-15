@@ -4,6 +4,7 @@
 This program applies image filters (grayscale, sepia, reflect, blur) to 24‑bit BMP images. It reads an input BMP file, processes its pixels according to the selected filter, and writes the result to a new output BMP file.
 
 ## ⚙️ How to Run
+```bash
 make filter
 ./filter -g input.bmp output.bmp   (grayscale)
 ./filter -s input.bmp output.bmp   (sepia)
